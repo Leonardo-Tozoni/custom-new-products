@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Venchiarutti\CustomNewProducts\Model;
+namespace tozoni\CustomNewProducts\Model;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Store\Model\ScopeInterface;
-use Venchiarutti\CustomNewProducts\Api\ConfigurationInterface;
+use tozoni\CustomNewProducts\Api\ConfigurationInterface;
 
 /**
  * Class to provide configuration data for Custom New Products module

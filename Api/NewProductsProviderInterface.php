@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Venchiarutti\CustomNewProducts\Api;
+namespace tozoni\CustomNewProducts\Api;
 
 use Magento\Catalog\Api\Data\ProductInterface;
 

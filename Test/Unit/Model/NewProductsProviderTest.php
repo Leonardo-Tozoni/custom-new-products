@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Venchiarutti\CustomNewProducts\Test\Unit\Model;
+namespace tozoni\CustomNewProducts\Test\Unit\Model;
 
 use Magento\Catalog\Model\Product\Visibility;
 use Magento\Catalog\Model\Product\Attribute\Source\Status;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Venchiarutti\CustomNewProducts\Model\NewProductsProvider;
+use tozoni\CustomNewProducts\Model\NewProductsProvider;
 use Magento\Framework\Api\FilterBuilder;
 use Magento\Framework\Api\Search\FilterGroupBuilder;
 use Magento\Framework\Api\SortOrderBuilder;
@@ -23,7 +23,7 @@ use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Catalog\Helper\Image;
 
 /**
- * @coversDefaultClass \Venchiarutti\CustomNewProducts\Model\NewProductsProvider
+ * @coversDefaultClass \tozoni\CustomNewProducts\Model\NewProductsProvider
  */
 class NewProductsProviderTest extends TestCase
 {

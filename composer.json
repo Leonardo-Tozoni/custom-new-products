@@ -1,5 +1,5 @@
 {
-    "name": "venchiarutti/custom-new-products",
+    "name": "tozoni/custom-new-products",
     "description": "Module to add new products information in home page",
     "type": "magento2-module",
     "version": "1.0.0",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Venchiarutti\\CustomNewProducts\\": ""
+            "tozoni\\CustomNewProducts\\": ""
         },
         "files": [
             "registration.php"

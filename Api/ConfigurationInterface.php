@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Venchiarutti\CustomNewProducts\Api;
+namespace tozoni\CustomNewProducts\Api;
 
 /**
  * Interface to provide configuration data for Custom New Products module
@@ -9,7 +9,7 @@ namespace Venchiarutti\CustomNewProducts\Api;
 interface ConfigurationInterface
 {
     /** @var string */
-    public const SECTION = 'venchiarutti';
+    public const SECTION = 'tozoni';
 
     /** @var string */
     public const GROUP = 'custom_new_products';

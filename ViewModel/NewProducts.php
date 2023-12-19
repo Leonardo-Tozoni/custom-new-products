@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Venchiarutti\CustomNewProducts\ViewModel;
+namespace tozoni\CustomNewProducts\ViewModel;
 
-use Venchiarutti\CustomNewProducts\Api\ConfigurationInterface;
-use Venchiarutti\CustomNewProducts\Api\NewProductsProviderInterface;
+use tozoni\CustomNewProducts\Api\ConfigurationInterface;
+use tozoni\CustomNewProducts\Api\NewProductsProviderInterface;
 use Magento\Framework\View\Element\Block\ArgumentInterface;
 
 /**

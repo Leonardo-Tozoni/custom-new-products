@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Venchiarutti\CustomNewProducts\Model;
+namespace tozoni\CustomNewProducts\Model;
 
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Framework\Api\FilterBuilder;
@@ -11,7 +11,7 @@ use Magento\Catalog\Model\Product\Visibility;
 use Magento\Catalog\Model\Product\Attribute\Source\Status;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Catalog\Api\ProductRepositoryInterface;
-use Venchiarutti\CustomNewProducts\Api\NewProductsProviderInterface;
+use tozoni\CustomNewProducts\Api\NewProductsProviderInterface;
 use Magento\Framework\Api\SearchCriteria;
 use Magento\Catalog\Helper\Image as ImageHelper;
 
